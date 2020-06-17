@@ -1,0 +1,120 @@
+/* CSS Document */
+body{
+	font-family: Segoe UI;
+	font-size: 14px;
+	width: 1000px;
+	margin: 0 auto;
+}
+#menu{
+	background: black;
+	height: 50px;
+}
+#banner{
+	height: auto;
+	width: 1000px;
+}
+#main #left{
+	width: 700px;
+	float: left;
+}
+#main #right{
+	width: 300px;
+	float: left;
+}
+#footer{
+	width: 1000px;
+	height: 60px;
+	text-align: center;
+	clear: left;
+}
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+	
+}
+#menu ul li{
+	list-style: none;
+	float: left;
+}
+#menu ul li a{
+	text-decoration: none;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	color: aliceblue;
+	padding: 0px 20px 0px 20px;
+	border-right: 1px solid #f1f1f1;
+}
+#menu ul li a.active{
+	background: blue;	
+}
+#banner img{
+	width: 1000px;
+	height: 400px;
+}
+#main #left ul{
+	margin: 0px;
+	padding: 0px;
+}
+#main #left ul li{
+	list-style: none;
+	clear: left;
+	border-bottom: 2px solid #000;
+	float: left;
+	margin-bottom: 20px;
+}
+#main #left ul li img{
+	float: left;
+	margin-right: 6px;
+	margin-bottom: 20px;
+}
+#main #left ul li p{
+	font-size: 16px;
+	margin-top: 0px;
+}
+#main #left ul li b a{
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#main{
+	margin-top: 20px
+}
+#main #right .right ul{
+	margin: 0px;
+	padding: 0px;
+}
+#main #right .right ul li{
+	list-style: none;
+}
+#main #right .right h1{
+	background: #748EE1 url("../image/Gnome-X-Office-Drawing-32.webp") no-repeat 3px;
+	height: 40px;
+	margin-top: 0px;
+	text-align: left;
+	font-size: 18px;
+	line-height: 40px;
+	color: aliceblue;
+	text-indent: 35px;
+}
+#main #right .right ul li a{
+	display: block;
+	text-decoration: none;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+	background: url("../image/Gnome-Go-Last-32.webp") no-repeat 3px;
+	text-indent: 40px;
+	color: #748EE1;
+	height: 35px;
+	font-size: 16px;
+}
+#main #right .right ul li a:hover{
+	color: orange;
+}
+#main #right img{
+	width: 300px;
+	height: 440px
+}
+
+
+
